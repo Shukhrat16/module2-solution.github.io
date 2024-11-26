@@ -1,0 +1,63 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Menu item styles */
+main {
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.menu-header {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Specific menu item colors */
+.chicken {
+    background-color: #f8c8d8;
+}
+
+.beef {
+    background-color: #c40000;
+}
+
+.sushi {
+    background-color: #f8e28c;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .menu-item {
+        margin-bottom: 15px;
+    }
+}
